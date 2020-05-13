@@ -27,7 +27,7 @@ jobs:
         app_location: '/'
         api_location: ''
         app_artifact_location: ''
-        api_build_command: "echo 'use existing build api artifacts'"
+        app_build_command: "echo 'use existing build api artifacts'"
         ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
