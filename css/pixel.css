@@ -1912,15 +1912,15 @@ button.section-black:focus {
 
 .section {
     position: relative;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
 @media (min-width: 576px) {
     .section {
         position: relative;
-        padding-top: 6rem;
-        padding-bottom: 6rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
     .section-xl {
         padding-top: 10rem;
@@ -1930,9 +1930,11 @@ button.section-black:focus {
         padding-top: 8rem;
         padding-bottom: 8rem;
     }
-    .section-sm {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+    .section-sm, p {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 }
 
@@ -3753,7 +3755,7 @@ button.section-black:focus {
 }
 
  .card-body {
-     padding: 10px 7px;
+     padding: 4px 7px;
      border-top: 2px solid #BDBDBD;
      border-left: 3px solid #BDBDBD;
      border-right: 3px solid #BDBDBD;
@@ -3761,7 +3763,7 @@ button.section-black:focus {
  }
 
  .card-footer {
-    padding: 10px 7px;
+    padding: 4px 7px;
  }
 
 /**
@@ -6774,7 +6776,7 @@ p,
 ol li,
 ul li {
     font-family: "Windows 95", sans-serif;
-    font-size: .6rem;
+    font-size: .8rem;
     font-weight: 300;
     line-height: 2;
 }
@@ -6868,12 +6870,14 @@ a:hover,
 .blockquote {
     font-family: 'Sanchez', serif;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .blockquote .blockquote-footer {
     font-size: 0.875rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .font-xsmall {
