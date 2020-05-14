@@ -29,6 +29,8 @@ jobs:
         app_artifact_location: './' # Built app content directory - optional
         app_build_command: 'echo skip build'
         api_build_command: 'echo skip build'
+      env:
+        DISABLE_NODEJS_BUILD: true
         ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
